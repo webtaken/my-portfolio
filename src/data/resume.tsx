@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Freelancer Software Engineer and Entrepreneur. I love building things and helping people. Very active on Twitter & LinkedIn.",
   summary:
-    "At the end of 2023, I ended up my major in computer science and started to work for a software company. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "I'm a developer experienced in small startups all the way to large companies, looking to make a difference for your small to medium-sized business. Whether you need to update your website, build a totally new site, or you need some web business running, I'm here to get things done quickly and efficiently for you: Can build effective UIs with ReactJS with NextJS, Proficient in Django, Django REST Framework, PostgreSQL, for the backend. Can also handle more complicated tasks such as working with Celery. Quick to learn, and eager to meet new people and learn about their goals. Let's chat!",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
