@@ -218,8 +218,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/quizz.png",
-      video: "",
+      // image: "/quizz.png",
+      image: "",
+      video: "/quizz.mp4",
     },
     {
       title: "Inventory",
