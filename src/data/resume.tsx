@@ -71,7 +71,7 @@ export const DATA = {
       title: "Fullstack Software Engineer",
       logoUrl: "/softlabperu.svg",
       start: "March 2024",
-      end: "Oct 2024",
+      end: "Current",
       description:
         "Implemented a tickets system (NextJS + Django) for IPT's (Internet para todos) employees, that project was used by +100 users per day. Implemented the UI (Angular & Azure technologies) of the admin dashboard for an internal learning platform used by IPT's technicians, administratives, etc; Around 50 courses were registered and 100+ video tutorials were published. Collaborated in the development of a clone of Red Hat Ansible Automation Platform (NextJS with FastAPI) in order to automate CI/CD processes.",
     },
