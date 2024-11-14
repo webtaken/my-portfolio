@@ -193,6 +193,35 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Agentic AI",
+      href: "https://dub.sh/agentic-ai",
+      dates: "October 2024 - Current",
+      active: true,
+      description:
+        "AI agents to automate freelancers tasks with Generative AI.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Vercel AI SDK",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://dub.sh/agentic-ai",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/webtaken/agents",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/demo-vmake.mp4",
+    },
+    {
       title: "*Quizz",
       href: "https://dub.sh/quizz",
       dates: "September 2024 - September 2024",
