@@ -13,15 +13,16 @@ export const DATA = {
     "I'm a developer experienced in small startups all the way to large companies, looking to make a difference for your small to medium-sized business. Whether you need to update your website, build a totally new site, or you need some web business running, I'm here to get things done quickly and efficiently for you: Can build effective UIs with ReactJS with NextJS, Proficient in Django, Django REST Framework, PostgreSQL, for the backend. Can also handle more complicated tasks such as working with Celery. Quick to learn, and eager to meet new people and learn about their goals. Let's chat!",
   avatarUrl: "/me.jpg",
   skills: [
+    "Python",
+    "Javascript",
     "React",
     "Next.js",
     "Typescript",
-    "Python",
     "Django",
-    "Go",
+    "N8N",
     "Postgres",
     "Docker",
-    "Kubernetes",
+    "K8S",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -123,42 +124,60 @@ export const DATA = {
     },
   ],
   projects: [
+    // {
+    //   title: "Get-Aboard",
+    //   href: "https://get-aboard.co/",
+    //   dates: "Jan 2024 - Present",
+    //   active: true,
+    //   description:
+    //     "After a bad experience on an onboarding process, I decided to build get-aboard which allows software development teams to create onboarding roadmaps. This is a great way to organize information about onboardings and different roadmaps.",
+    //   technologies: [
+    //     "Next.js",
+    //     "ReactFlow",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Django",
+    //     "TailwindCSS",
+    //     "Lemonsqueezy",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://get-aboard.co/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/webtaken/get-aboard",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //     {
+    //       type: "Launch",
+    //       href: "https://www.producthunt.com/products/get-aboard#get-aboard",
+    //       icon: <Icons.producthunt className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/get-aboard.png",
+    //   video: "",
+    // },
     {
-      title: "Get-Aboard",
+      title: "DirectoryGen",
       href: "https://get-aboard.co/",
-      dates: "Jan 2024 - Present",
+      dates: "Jul 2025 - Present",
       active: true,
       description:
-        "After a bad experience on an onboarding process, I decided to build get-aboard which allows software development teams to create onboarding roadmaps. This is a great way to organize information about onboardings and different roadmaps.",
-      technologies: [
-        "Next.js",
-        "ReactFlow",
-        "Typescript",
-        "PostgreSQL",
-        "Django",
-        "TailwindCSS",
-        "Lemonsqueezy",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "Create a web directory in seconds, fully SEO optimized, with a modern UI and a fully customizable theme.",
+      technologies: ["Next.js", "Supabase", "TailwindCSS", "Shadcn UI"],
       links: [
         {
           type: "Website",
-          href: "https://get-aboard.co/",
+          href: "https://www.directorygen.com/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/webtaken/get-aboard",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Launch",
-          href: "https://www.producthunt.com/products/get-aboard#get-aboard",
-          icon: <Icons.producthunt className="size-3" />,
-        },
       ],
-      image: "/get-aboard.png",
+      image: "/directorygen.png",
       video: "",
     },
     {
@@ -192,83 +211,83 @@ export const DATA = {
       image: "/chatgpt-jobs.png",
       video: "",
     },
-    {
-      title: "Agentic AI",
-      href: "https://dub.sh/agentic-ai",
-      dates: "October 2024 - Current",
-      active: true,
-      description:
-        "AI agents to automate freelancers tasks with Generative AI.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Vercel AI SDK",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://dub.sh/agentic-ai",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/webtaken/agents",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/demo-vmake.mp4",
-    },
-    {
-      title: "*Quizz",
-      href: "https://dub.sh/quizz",
-      dates: "September 2024 - September 2024",
-      active: true,
-      description:
-        "Developed a quizzes app generator for english learners using Generative AI.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Vercel AI SDK",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://dub.sh/quizz",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/webtaken/quizz",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      // image: "/quizz.png",
-      image: "",
-      video: "/quizz.mp4",
-    },
-    {
-      title: "Inventory",
-      href: "https://dub.sh/inventory",
-      dates: "August 2023 - September 2023",
-      active: true,
-      description:
-        "Developed a no-code inventory management app using Notion. Implemented stock management, accountability system, CMS for clients, etc.",
-      technologies: ["Next.js", "Notion", "Shadcn UI", "Gumroad"],
-      links: [
-        {
-          type: "Website",
-          href: "https://dub.sh/inventory",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/inventory.webp",
-      video: "",
-    },
+    // {
+    //   title: "Agentic AI",
+    //   href: "https://dub.sh/agentic-ai",
+    //   dates: "October 2024 - Current",
+    //   active: true,
+    //   description:
+    //     "AI agents to automate freelancers tasks with Generative AI.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "Vercel AI SDK",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://dub.sh/agentic-ai",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/webtaken/agents",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "/demo-vmake.mp4",
+    // },
+    // {
+    //   title: "*Quizz",
+    //   href: "https://dub.sh/quizz",
+    //   dates: "September 2024 - September 2024",
+    //   active: true,
+    //   description:
+    //     "Developed a quizzes app generator for english learners using Generative AI.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "Vercel AI SDK",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://dub.sh/quizz",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/webtaken/quizz",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   // image: "/quizz.png",
+    //   image: "",
+    //   video: "/quizz.mp4",
+    // },
+    // {
+    //   title: "Inventory",
+    //   href: "https://dub.sh/inventory",
+    //   dates: "August 2023 - September 2023",
+    //   active: true,
+    //   description:
+    //     "Developed a no-code inventory management app using Notion. Implemented stock management, accountability system, CMS for clients, etc.",
+    //   technologies: ["Next.js", "Notion", "Shadcn UI", "Gumroad"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://dub.sh/inventory",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/inventory.webp",
+    //   video: "",
+    // },
   ],
   hackathons: [
     {
